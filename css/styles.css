@@ -1,0 +1,125 @@
+:root {
+    --PrimaryGreen: hsl(171, 66%, 44%);
+    --PrimaryBlue: hsl(233, 100%, 69%);
+    --Gray-700: hsl(210, 10%, 33%);
+    --Gray-500: hsl(201, 11%, 66%);
+    --White: #FFFFFF;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+/** Utilities **/
+
+.bai-jamjuree-regular {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bai-jamjuree-semibold {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+
+h1, h2, h3, h4 {
+    color: var(--Gray-700);
+}
+
+p {
+    line-height: 1.5;
+    color: var(--Gray-500);
+}
+
+body {
+    font-size: 1.8rem;
+    line-height: 1.3;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+    
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+/* Header */
+.header__logo {
+    background-image: url(../images/bg-header-mobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 30rem;
+    display: grid;
+    place-items: center;
+}
+
+.logo {
+    margin-top: 10rem;
+}
+
+.header__title {
+    color: var(--Gray-700);
+}
+
+.header__desc {
+    color: var(--Gray-500);
+}
+
+.header__buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+
+.button {
+    padding: 1.5rem 8rem;
+    text-decoration: none;
+    color: var(--White);
+    background-color: var(--PrimaryGreen);
+    border-radius: 10rem;
+}
+
+.button--blue {
+    background-color: var(--PrimaryBlue);
+}
+
+/** Main Content **/
+
+.main,
+.access {
+    margin-top: 10rem;
+}
+
+.snippets__image {
+    margin-top: 5rem;
+}
+
