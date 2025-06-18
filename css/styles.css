@@ -123,3 +123,8 @@ body {
     margin-top: 5rem;
 }
 
+.advantage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
