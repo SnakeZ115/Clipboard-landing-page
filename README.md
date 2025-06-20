@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [FrontEnd Mentor](https://www.frontendmentor.io/solutions/clipboard-landing-page-pEiTTMXyMN)
+- Live Site URL: [Github Pages](https://snakez115.github.io/Clipboard-landing-page/)
 
 ## My process
 
