@@ -67,6 +67,7 @@ body {
 .attribution { 
     font-size: 11px; 
     text-align: center; 
+    margin-top: -2rem;
 }
     
 .attribution a { 
@@ -136,6 +137,19 @@ body {
     background-color: var(--PrimaryBlue);
 }
 
+.button--blue {
+    width: max-content;
+}
+
+.button:hover {
+    box-shadow: 0 4px 12px var(--PrimaryGreen); 
+    cursor: pointer;
+}
+
+.button--blue:hover {
+    box-shadow: 0 6px 12px var(--PrimaryBlue); 
+}
+
 /** Main Content **/
 
 .main,
@@ -148,13 +162,33 @@ body {
     margin-top: 5rem;
 }
 
+.perk {
+    text-align: center;
+}
+
 @media screen and (min-width: 1025px) {
     .snippets__perks {
         display: flex;
+        gap: 10rem;
     }
 
     .snippets__image {
         margin-left: -15rem;
+    }
+
+    .perks {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .perk {
+        text-align: left;
+    }
+
+    .perk h3 {
+        width: 50%;
+        margin: 1rem auto;
     }
 
 }
